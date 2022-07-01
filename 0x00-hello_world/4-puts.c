@@ -1,8 +1,6 @@
 #include <stdio.h>
 /**
  * main - Makes the sum of two numbers
- 
- *
  * Description: This is a longer description.
  * Don't forget that a line should not exceed 80 characters.
  * But you're totally free to use several lines to properly
