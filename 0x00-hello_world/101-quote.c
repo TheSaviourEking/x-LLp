@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
-*main - prints exactly and that piece of art is useful"
-*return - Always 0(Success)
-*return:main always return zero(Success)
+*main - prints exactly "and that place of art is useful"
+* - Dora Korgar, 2015-10-19",
+*followed by a new line, to the standard error.
+*Return: Always 0(Success)
 */
 int main(void)
 {
