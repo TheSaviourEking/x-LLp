@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
-*A C program that prints exactly and that piece of art is useful" - Dora Korpar, 2015-10-19, followed by a new line, to the standard error.
+*A C program that prints exactly.
 *main: prints exactly and that piece of art is useful"
 return:Always 0
 */
