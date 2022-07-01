@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
-*A C program that prints exactly.
 *main: prints exactly and that piece of art is useful"
-return: null or 0
+return: 0
 */
 int main(void)
 {
