@@ -3,7 +3,7 @@
 /**
 *main - prints exactly and that piece of art is useful"
 *return - Always 0
-*return:main always return zero
+*@return:main always return zero
 */
 int main(void)
 {
