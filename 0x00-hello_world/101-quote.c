@@ -3,7 +3,7 @@
 /**
 *A C program that prints exactly.
 *main: prints exactly and that piece of art is useful"
-return:Always 0
+return: Always 0
 */
 int main(void)
 {
