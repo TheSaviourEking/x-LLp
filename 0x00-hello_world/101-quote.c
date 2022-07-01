@@ -2,8 +2,8 @@
 #include <unistd.h>
 /**
 *main - prints exactly and that piece of art is useful"
-*return - Always 0
-*@return:main always return zero
+*return - Always 0(Success)
+*return:main always return zero(Success)
 */
 int main(void)
 {
