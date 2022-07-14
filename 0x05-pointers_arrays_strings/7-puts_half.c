@@ -1,4 +1,4 @@
-#include "alx.c"
+#include "alx.h"
 
 /**
  * puts_half -> a function that prints half of a string, followed by a new line
