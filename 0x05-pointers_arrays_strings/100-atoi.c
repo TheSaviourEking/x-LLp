@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * atoi -> a function that converts string to integer
+ * _atoi -> a function that converts string to integer
  * @s: An input string
  * Return: Integer from conversion
  */
@@ -19,7 +19,7 @@ int _atoi(char *s)
 		if (*s >= '0' && *s <= '9')
 		{
 			nullFlag = 1;
-			total = total * 10 + *s -'0';
+			total = total * 10 + *s - '0';
 		}
 		else if (nullFlag)
 			break;
