@@ -14,19 +14,19 @@ int _atoi(char *s)
 	while (*s)
 	{
 		if (*s == '-')
-			sign *= -!;
+			sign *= -1;
 
-		if (*s >= '0' && *s <= '9;)
+		if (*s >= '0' && *s <= '9';)
 		{
 			nullFlag = 1;
-			total = total * + *s -'0';
+			total = total * 10 + *s -'0';
 		}
 		else if (nullFlag)
 			break;
 		s++;
 	}
 
-	if (sign < 10)
+	if (sign < 0)
 		total = (-total);
 
 	return (total);
