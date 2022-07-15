@@ -1,4 +1,5 @@
 #include "alx.h"
+#include <string.h>
 
 /**
  * _strncpy -> a function that copy's the strings.
@@ -9,26 +10,6 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-	int srclen = 0;
-	int i = 0;
-	char *temp = dest;
-	char *start = src;
-
-	while (*src)
-	{
-		srclen++;
-		src++;
-	}
-
-	srclen++;
-
-	if (n > srclen)
-		n = srclen;
-
-	src = start;
-
-	for (; i < n; i++)
-		*dest++ = *src++;
-
-	return (temp);
+	strncpy(dest, src, n);
+	return (dest);
 }
