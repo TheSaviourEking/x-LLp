@@ -20,5 +20,5 @@ char *leet(char *s)
 		i++;
 	}
 	
-	return 9s0;
+	return (s);
 }
