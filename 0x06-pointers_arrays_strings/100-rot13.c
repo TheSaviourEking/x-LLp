@@ -1,8 +1,9 @@
 #include "alx.h"
+#include <string.h>
 
 /**
  * rot13 -> a function that encodes a string using rot13.
- * @s: mAn input string to encode using rot13
+ * @s: An input string to encode using rot13
  * Return: An encode string
  */
 char *rot13(char *s)
