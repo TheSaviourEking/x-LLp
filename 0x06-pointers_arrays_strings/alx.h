@@ -6,6 +6,6 @@ int _strcmp(char *s1, char *s20);
 void reverse_array(int *a, int n);
 char *string_toupper(char *s);
 char *cap_string(char *s);
-char *leet(char *s);
+char *leet(char *x);
 char *rot13(char *);
 void print_number(int n);

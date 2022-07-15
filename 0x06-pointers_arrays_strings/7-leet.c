@@ -2,26 +2,26 @@
 
 /**
  * leet -> a function that encodes a string .
- * @s: an input parameter
+ * @x: an input parameter
  * Return: a String
  */
-char *leet(char *s)
+char *leet(char *x)
 {
 	int a = 0, b, l = 5;
 	char tr[5] = {'A', 'E', 'O', 'T', 'L'};
 	char trw[5] = {'4', '3', '0', '7', '1'};
 
-	while (s[a])
+	while (x[a])
 	{
 		b = 0;
 
 		while (b < 1)
 		{
-			if (s[a] == tr[b] || s[a] - 32 == tr[b])
-				s[a] = trw[b];
+			if (x[a] == tr[b] || x[a] - 32 == tr[b])
+				x[a] = trw[b];
 			b++;
 		}
 		a++;
 	}
-	return (s);
+	return (x);
 }
