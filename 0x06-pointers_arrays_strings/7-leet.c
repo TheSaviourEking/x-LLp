@@ -1,26 +1,27 @@
 #include "alx.h"
 
 /**
- * leet -> a function that encodes a string into 1337.
- * @s: an input string to encode
- * Return: An encode string
+ * leet -> a function that encodes a string .
+ * @s: an input parameter
+ * Return: a String
  */
 char *leet(char *s)
 {
-	int i = 0;
-	int j;
-	char subs[10] = {'4', '4', '3', '3', '0', '7', '7', '1', 'L'};
-	char str[10] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
+	int a = 0, b, l = 5;
+	char tr[5] = {'A', 'E', 'O', 'T', 'L'};
+	char trw[5] = {'4', '3', '0', '7', '1'};
 
-	while (s[i])
+	while (s[a])
 	{
-		for (j = 0; j < 10; j++)
-			if (s[i] == str[j])
-				s[i] = subs[j];
+		b = 0;
 
-		i++;
+		while (b < 1)
+		{
+			if (s[a] == tr[b] || s[a] - 32 == tr[b])
+				s[a] = trw[b];
+			b++;
+		}
+		a++;
 	}
-
 	return (s);
 }
-
