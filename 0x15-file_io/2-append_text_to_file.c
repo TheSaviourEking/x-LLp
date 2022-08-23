@@ -3,7 +3,7 @@
 #include <sys/uio.h>
 #include <unistd.h>
 #include <fcntl.h>
-
+#include "main.h"
 /**
  * append_text_to_file - A function that appends text at the end to the  file
  * @filename: The filename to open and append in
