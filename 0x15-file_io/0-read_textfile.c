@@ -4,6 +4,7 @@
 #include <unistd.h>
 #include <fcntl.h>
 #include <stdlib.h>
+#include "main.h"
 
 /**
  * read_textfile - A function that reads a text file and prints
